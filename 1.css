@@ -4,6 +4,7 @@ div{ border: 3px solid pink;
      background-color: orange;
     font-family: Times New Roman;
     font-size: 14pt;
+   text-align: center;
     }
 #b1{  margin: 10px;
       background-color:yellow;
