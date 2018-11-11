@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>!DOCTYPE</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="1.css">
+<script4.js>
+</script>
+</head>
+<body>
+<div id="b1">
+<div id="b2">
+
+<h1></h1>
+<h3></h3>
+</div>
+<div id="b3">
+<ol>
+<li><a href="lab1.html">Lab1</a></li>
+<li><a href="lab2.html">Lab2</a></li>
+<li><a href="lab3.html">Lab3</a></li>
+<li><a href="lab4.html">Lab4</a></li>
+<li><a href="v.html">Validator</a></li>
+<li><a href="m.html">Modul</a></li>
+<li><a href="lab2javascript.html">JavaScript2</a></li>
+<li><a href="lab3_1.html">JavaScript3_1</a></li>
+ <li><a href="lab3_1(2)javascript.html">JavaScript3_2</a></li>
+ <li><a href="36.html">JavaScript3_3</a></li>
+ <li><a href=".html">JavaScript3_4</a></li>
+ <li><a href=".html">JavaScript(Калькулятор)</a></li>
+  <li><a href="LAB4.html">JavaScript(Array(),String())</a></li>
+  <li><a href=".html">JavaScript(Анімація)</a></li>
+</ol>
+</div>
+<div id="b4">
+<form action="Test">
+	
+				<p><font size="5">ЗАДАНИЕ №8</font></p>
+							
+				<p><font size="4"> Написать функцию для проверки правильности заполнения поля "e-mail" в форме. Правильным считается, если поле: заполнено (не пусто); содержит только буквы, цифры, подчерки, точки и знак @(причем только один). </font></p>
+								
+				<p>In <input id="In" type="text" value=""></p>
+						
+				<p>Result <input id="Result" type="text" value=""></p>
+					
+				<p><input name="" type="button" value="Enter" 						
+				onclick="document.getElementById('Result').value=f(document.getElementById('In').value)"> </p>
+				
+			 </form>
+	
+
+ </div>
+
+<div id="b6">
+</div>
+<div id="b7">
+
+</div>
+
+</div>
+</body>
+</html>
