@@ -6,7 +6,7 @@ function f()
 {
 var x1=document.getElementById('b1');
 x1.style.left=(parseInt(x1.style.left)+100)+'px';
-x1.style.d=(parseInt(x1.style.top)+100)+'px';
+x1.style.top=(parseInt(x1.style.top)+100)+'px';
 r1-=100;
 g1-=50;
 b1-=100;
