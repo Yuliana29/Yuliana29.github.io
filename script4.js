@@ -25,27 +25,12 @@ function f(x)
 		
 			var mass = x.split('@');
 		
-			f = "Okay";
+			f = "False";
 		
 			if(mass.length==2)
+				f = "Okay";
 		
-				{
-			
-				for(i=0;i<x.length;i++)
-			
-					{
-			
-					if(st.indexOf(x.charAt(i))<0)
-			
-					f="False";
-			
-					}
-		
-				}
-		
-			else
-			
-				f="Fail";
+				
 		
 				return f;
 		
