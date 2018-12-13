@@ -10,7 +10,7 @@ elements.push(element);
 } 
 return elements; } 
 
-function f1(){
+function f2(){
 N=parseFloat($('tx1').value);
 S = 0;
 X = 1;
