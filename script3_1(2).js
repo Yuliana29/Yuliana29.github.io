@@ -14,14 +14,14 @@ function f1()
 {
 N=parseInt($('tx1').value);
 F1=1;
-$('tx4').value=F1+' ';
+$('tx2').value=F1+' ';
 F2=1;
-$('tx4').value=$('tx4').value+F2+' ';
+$('tx2').value=$('tx2').value+F2+' ';
 
 for(i=3;i<=N;i++)
 {
 F=F2+F1;
-$('tx4').value=$('tx4').value+F+' ';
+$('tx2').value=$('tx2').value+F+' ';
 F1=F2;
 F2=F;
 }
