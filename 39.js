@@ -9,15 +9,15 @@ elements.push(element);
 } 
 return elements; }
 
-function f1()
+function f2()
 {
-	A=parseFloat($('tx1').value);
-	B=parseFloat($('tx2').value);
+	A=parseFloat($('tx5').value);
+	B=parseFloat($('tx6').value);
 	result='';
 	for(var i=A; i<=B; i++)
 	{
 		for(var j=1; j<= i; j++)
 			result=result+i;
 	}
-	$('tx4').value=result;
+	$('tx7').value=result;
 }
