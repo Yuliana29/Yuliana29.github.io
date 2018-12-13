@@ -11,7 +11,7 @@ elements.push(element);
 return elements; } 
 
 function f2(){
-N=parseFloat($('tx1').value);
+N=parseFloat($('tx3').value);
 S = 0;
 X = 1;
 for( i = 1; i <= N; i++)
