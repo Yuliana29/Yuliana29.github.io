@@ -1,4 +1,4 @@
-﻿﻿﻿function $()
+﻿﻿function $()
 
 { var elements = new Array(); 
 
@@ -21,18 +21,22 @@ function f(x)
 	
 		{
 		
-			var st = "qwertyuiopasdfghjklzxcvbnm1234567890_.@";
+			var str = "qwertyuiopasdfghjklzxcvbnm1234567890_.@";
 		
 			var mass = x.split('@');
 		
-			f = "False";
+			f1 = "Okay";
 		
-			if(mass.length==2)
-				f = "Okay";
-		
+			if(mass.length!=2)
+
+
+f1="False";
+				for(i=0;i<x.length;i++)
+					{tt=x.charAt(i);
+					if(str.indexOf(tt)==-1)
+					f1="False";}		
 				
-		
-				return f;
+				return f1;
 		
 
 }
